@@ -19,14 +19,11 @@ namespace StudentAdmission
 
         public void DisplayDetails()
         {
-            Console.WriteLine("\n===================================");
-            Console.WriteLine("      STUDENT DETAILS");
-            Console.WriteLine("===================================");
-            Console.WriteLine("Student ID   : " + id);
-            Console.WriteLine("Student Name : " + name);
-            Console.WriteLine("Course       : " + course);
-            Console.WriteLine("Fees         : ₹" + fees);
-            Console.WriteLine("===================================");
+            Console.WriteLine("\n------ Student Details ------");
+            Console.WriteLine("Student ID : " + id);
+            Console.WriteLine("Name       : " + name);
+            Console.WriteLine("Course     : " + course);
+            Console.WriteLine("Fees       : " + fees);
         }
     }
 
@@ -34,9 +31,7 @@ namespace StudentAdmission
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("==============================================");
-            Console.WriteLine("   STUDENT ADMISSION MANAGEMENT SYSTEM");
-            Console.WriteLine("==============================================");
+            Console.WriteLine("====== Student Admission Management System ======");
 
             Console.Write("Enter Student ID: ");
             int id = Convert.ToInt32(Console.ReadLine());
@@ -55,6 +50,7 @@ namespace StudentAdmission
             s1.DisplayDetails();
 
             Console.WriteLine("\nAdmission Successful!");
+
             Console.ReadKey();
         }
     }
