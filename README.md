@@ -18,7 +18,7 @@ A simple C# console application developed using Object-Oriented Programming (OOP
 ## Project Structure
 
 ```
-StudentAdmission/
+.net/
 │── Program.cs
 ```
 
